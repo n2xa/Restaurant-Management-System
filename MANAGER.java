@@ -119,7 +119,7 @@ public class MANAGER implements ActionListener, KeyListener {
 		
 		 try {
 	            Class.forName("com.mysql.cj.jdbc.Driver");
-	            con = DriverManager.getConnection("jdbc:mysql://localhost/restaurant", "root","Csc380Noura");
+	            con = DriverManager.getConnection("jdbc:mysql://localhost/restaurant", "root","");
 	        }
 	        catch (ClassNotFoundException ex)
 	        {
